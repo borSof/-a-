@@ -17,9 +17,9 @@ public class Huffman {
 		return new HuffmanEncodedResult(generateEncodetData(data, lookupTable), root);
 	}
 
-	// suzdavame masiv ot char-ovete na stringa za codirane sudurjasht chestotata na
-	// vseki simvol ot ascii
-	// tablicata=====================================================
+	// suzdavame masiv ot char-ovete na stringa za zapisvane na chestotata na
+	// vseki simvol ot ascii tablicata
+	// =====================================================
 
 	private static int[] buildFrequencyTable(String data) {
 		// масив за честота на знаци
